@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeepVPN</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.7.0/cdn/themes/light.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.7.0/cdn/shoelace-autoloader.js"></script>
+</head>
+
+<body>
+    <video class="video" src="./assets/video/background.mp4" muted autoplay loop></video>
+    <div id="root">
+        <svg viewBox="0 0 141 441" fill="none" preserveAspectRatio="xMidYMid meet" class="line-1-container">
+            <!-- <path class="background-path" d="M71 0V440.5H0H141" stroke="#66FCF1" /> -->
+            <path class="background-path" d="M71 0V440.5" stroke="#66FCF1" stroke-width="2"/>
+        </svg>
+        <div class="base-container">
+            <section class="basic-grid">
+                <section class="main-view container-base">
+                    <div class="hero feature container-base">
+                        <h1 class="hero-text">DeepVPN</h1>
+                    </div>
+                </section>
+                <div class="spacer-hero"></div>
+                <section class="main-view container-base">
+                    <div class="animated-first feature feature-card container-base">
+                        <div class="feature-heading">What is DeepVPN?</div>
+                        <img src="./assets/images/analysis.svg" class="feature-image" />
+                        <div class="feature-text">
+                            Welcome to the future of online privacy with DeepVPN. In an age where the digital landscape is exponentially growing, protecting your sensitive information and maintaining your privacy has never been more important.
+                            DeepVPN is a bleeding-edge solution that defends you from the constantly advancing threat-actors.
+                        </div>
+                    </div>
+                </section>
+                <div class="spacer"></div>
+                <section class="main-view container-base">
+                    <div class="animated-second feature feature-card container-base">
+                        <div class="feature-heading">How does DeepVPN work?</div>
+                        <img src="./assets/images/padlock.svg" class="feature-image" />
+                        <div class="feature-text">
+                            DeepVPN has a large number of nodes around the world that make up the VPN. Using state of the art end-to-end encryption, when you connect to one of these nodes, an encrypted tunnel for your traffic is created hiding your data from anyone between you and the internet.
+                        </div>
+                    </div>
+                </section>
+                <div class="spacer"></div>
+                <section class="main-view container-base">
+                    <div class="animated-third feature feature-card container-base">
+                        <div class="feature-heading">Why DeepVPN?</div>
+                        <img src="./assets/images/empowerment.svg" class="feature-image" />
+                        <div class="feature-text">
+                            In addition to our bleeding edge software, we offer 24/7 customer support, reliable connections with nodes in almost every country. We have adopted a no-logs policy and collect no user data, giving you full control of who you want to share your data with.
+                        </div>
+                    </div>
+                </section>
+                <div class="spacer"></div>
+                <section class="main-view container-base">
+                    <div class="animated-fourth feature feature-card container-base">
+                        <div class="feature-heading">About the Company</div>
+                        <img src="./assets/images/about.svg" class="feature-image" />
+                        <div class="feature-text">
+                            DeepVPN was born our of necessity during the global COVID-19 pandemic as the worlds abrupt shift in how we worked in the past moved to the home enviroment where employees and employers faced greater cyber security risks than the controlled netowrk environments of yesteryear.
+                        </div>
+                    </div>
+                </section>
+                <div class="spacer"></div>
+    <section class="main-view container-base">
+        <div class="animated-fifth feature feature-card container-base">
+            <div class="feature-heading">Meet The Team</div>
+            <div class="gallery-container">
+                <i class="gallery-back gallery-nav fa-solid fa-angle-left"></i>
+                <div class="gallery">
+                    <li class="card">
+                        <div class="img-container">
+                            <img class="portrait" src="./assets/images/portrait-1.jpg" alt="img" draggable="false">
+                        </div>
+                        <h2 class="card-title">Tom Curry</h2>
+                        <span class="card-desc">CEO/Founder</span>
+                    </li>
+                    <li class="card">
+                        <div class="img-container">
+                            <img class="portrait" src="./assets/images/portrait-2.jpg" alt="img" draggable="false">
+                        </div>
+                        <h2 class="card-title">Jen Schmidt</h2>
+                        <span class="card-desc">Network Engineer</span>
+                    </li>
+                    <li class="card">
+                        <div class="img-container">
+                            <img class="portrait" src="./assets/images/portrait-3.jpg" alt="img" draggable="false">
+                        </div>
+                        <h2 class="card-title">James Guld</h2>
+                        <span class="card-desc">Software Engineer</span>
+                    </li>
+                    <li class="card">
+                        <div class="img-container">
+                            <img class="portrait" src="./assets/images/portrait-4.jpg" alt="img" draggable="false">
+                        </div>
+                        <h2 class="card-title">Kim Smith</h2>
+                        <span class="card-desc">Systems Architect</span>
+                    </li>
+                </div>
+                <i class="gallery-next gallery-nav fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+    </section>
+                <div class="spacer"></div>
+                <section class="main-view container-base">
+                    <div class="animated-sixth feature feature-card container-base">
+                        <div class="feature-heading">Subscription Options</div>
+                        <sl-tab-group class="sub-group">
+                            <sl-tab class="sub-tab" slot="nav" panel="community"> Community Edition</sl-tab>
+                            <sl-tab slot="nav" panel="professional"> Professional Edition</sl-tab>
+                            <sl-tab slot="nav" panel="enterprise"> Enterprise Edition</sl-tab>
+                            <sl-tab-panel class="sub-card" name="community">
+                                <div class="sub-text">
+                                    <h3>Community Edition</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, vero! Nisi
+                                        distinctio nihil vitae officia facilis ea ad, corporis hic incidunt temporibus
+                                        soluta consectetur sunt exercitationem. Dolorum harum aliquam voluptatem.</p>
+                                </div>
+                            </sl-tab-panel>
+                            <sl-tab-panel class="sub-card" name="professional">
+                                <div class="sub-text">
+                                    <h3>Professional Edition</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, vero! Nisi
+                                        distinctio nihil vitae officia facilis ea ad, corporis hic incidunt temporibus
+                                        soluta consectetur sunt exercitationem. Dolorum harum aliquam voluptatem.</p>
+                                </div>
+                            </sl-tab-panel>
+                            <sl-tab-panel class="sub-card" name="enterprise">
+                                <div class="sub-text">
+                                    <h3>Enterprise Edition</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, vero! Nisi
+                                        distinctio nihil vitae officia facilis ea ad, corporis hic incidunt temporibus
+                                        soluta consectetur sunt exercitationem. Dolorum harum aliquam voluptatem.</p>
+                                </div>
+                            </sl-tab-panel>
+                        </sl-tab-group>
+                    </div>
+                </section>
+                <div class="spacer"></div>
+                <!-- Contact -->
+                <section class="main-view container-base">
+                    <div class="animated-seventh feature feature-card container-base">
+                        <div class="feature-heading">Contact Us</div>
+                        <form class="feature-text contact-form">
+                            <sl-tooltip class="tool-tip" content="Enter your name">
+                                <sl-input label="Name" />
+                            </sl-tooltip>
+                            <sl-tooltip content="Enter your email">
+                                <sl-input label="Email" />
+                            </sl-tooltip>
+                            <sl-tooltip content="Enter the subject">
+                                <sl-input label="Subject" />
+                            </sl-tooltip>
+                            <sl-tooltip content="Enter your message">
+                                <sl-textarea resize="none" label="Message" />
+                            </sl-tooltip>
+                        </form>
+                        <sl-tooltip content="Click submit to send us your message">
+                            <sl-button size="large" variant="primary" class="submit-button" outline>
+                                Submit
+                            </sl-button>
+                        </sl-tooltip>
+                    </div>
+                </section>
+                <div class="spacer"></div>
+                <section class="main-view container-base">
+                    <div class="feature container-base">Footer</div>
+                </section>
+            </section>
+        </div>
+    </div>
+    <!-- POP UPS -->
+    <div>
+        <sl-dialog label="Dialog" class="dialog-submit">
+            Thank you for contacting us! We will be back to you within 3 business days.</sl-dialog>
+        </sl-dialog>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Flip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script> 
+    <script src="scripts.js"></script>
+</body>
+
+</html>

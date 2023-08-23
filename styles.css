@@ -1,0 +1,356 @@
+/* COMMON */
+
+.basic-grid {
+    display: grid;
+    /*
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    */
+}
+
+body {
+    /* background-color: "transparent" #494949; */
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+video {
+    position: fixed;
+    z-index: -1;
+}
+
+.spacer{
+    height: 100vh;
+}
+.spacer-hero{
+    height: 40vh;
+}
+
+.container-base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: #353535; */
+    /* background: #1E1E1E; */
+    background: transparent;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.main-view {
+    height: 110vh;
+}
+
+/*
+ .card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+}
+
+*/
+
+
+/* FEATURE */
+.feature {
+    border: 3px #66FCF1 solid;
+    height: 60%;
+    width: 40%;
+    min-height: 20rem;
+    min-width: 35rem;
+    margin: 1rem;
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
+  
+}
+
+.feature-card{
+/* background-color: #302f2f; */
+background-color: #000000;
+}
+
+.feature-heading {
+    /* border: 1px blue solid; */
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-weight: 900;
+    font-size: 3rem;
+    border-bottom: 3px solid white;
+}
+
+.feature-image {
+    /* border: 1px green solid; */
+    margin: 1rem;
+    padding: 1rem 1rem;
+    height: 55%;
+    width: 50%;
+    max-width: 15rem;
+    max-height: 14rem;
+    background-image: radial-gradient(#54c7bf42, #000000);
+
+
+}
+
+.feature-text {
+    /* border: 1px yellow solid; */
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    min-width: 45%;
+    min-height: 20%;
+
+}
+
+
+
+/* HERO */
+.hero {
+    height: 10rem;
+    border: none;
+    box-shadow: none;
+}
+
+.hero-text {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 5rem;
+    border-right: #fff solid;
+    letter-spacing: 0.1rem;
+    width: 46%;
+    overflow: hidden;
+    animation: typing 2s steps(7) ,
+               cursor 0.5s step-end infinite alternate;
+
+}
+
+/* SVG */
+
+.line-1-container {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    z-index: -1;
+}
+
+svg {
+    display: inline-block;
+    height: 100%;
+}
+
+
+/* SUBSCRIPTIONS */
+
+.sub-group {
+    /* border: 1px solid orange; */
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    height: 90%;
+}
+
+.sub-card {
+    /* border: 1px solid purple; */
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.sub-text{
+    /* border: 1px yellow solid; */
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+}
+
+sl-tab-group{
+    --indicator-color: #66FCF1;
+    --track-color: rgb(87, 87, 87);
+}
+
+sl-tab::part(base){
+    color: white;
+    font-size: 1.2rem;
+}
+
+.sub-heading{
+    font-size: 2.5rem;
+}
+/* CONTACT FORM */
+
+sl-input::part(form-control-label){
+margin-top: 0.75rem;
+}
+
+sl-textarea::part(form-control-label){
+    margin-top: 0.75rem;
+}
+
+.contact-form{
+    padding-top: 0rem;
+    margin-top: 0rem;
+}
+.submit-button::part(base) {
+    background: black;
+    border: solid 1px #66FCF1;
+  }
+
+  .submit-button::part(base):hover {
+    background: #66FCF1;
+  }
+
+  .submit-button::part(base):active {
+    background: rgba(255, 99, 71, 0.2);
+  }
+
+  .submit-button::part(base):focus-visible {
+    box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.33);
+  }
+
+  .submit-button::part(label) {
+    color: #66FCF1;
+  }
+  .submit-button::part(label):hover{
+    color: black ;
+  }
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+
+    .feature-heading {
+        margin: 0.5rem;
+        padding: 0.5rem 2rem;
+    }
+
+    .feature-image {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .feature-text {
+        font-size: 1rem;
+        width: 60%;
+    }
+}
+
+/* GALLERY */
+
+.gallery-container {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    width: 100%;
+}
+
+.gallery{
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    height: 342px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    scroll-snap-align: start;
+}
+
+.card-title{
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.card-desc{
+    font-size: 1.1rem;
+    color: #313131;
+}
+.portrait {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: 0.5s ease-out;
+}
+
+.card:hover .portrait{
+    filter:grayscale(0%);
+}
+
+.gallery-nav{
+    font-size: 1.5rem;
+    width: 50px;
+    padding: 0.75rem;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.gallery.dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.gallery.dragging .card{
+    cursor: grab;
+    user-select: none;
+}
+
+.gallery.no-transition{
+    scroll-behavior: auto;
+}
+
+
+/* KEYFRAME ANIMATIONS */
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes cursor {
+    50% {border-color: transparent;}
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 128" fill="none">
+<path d="M87 22.5C85.3333 15.5 78.4 1.6 64 2C49.6 2.4 41.6667 13.5 39.5 19V43.5M39.5 43.5H49H52V51.5V53.5M39.5 43.5H36.5V53.5M52 53.5H36.5M52 53.5H73.5M36.5 53.5C33.3333 53.8333 26.9 55.7 26.5 60.5V117.5M76 43.5H73.5V53.5M73.5 53.5H89.5V43.5H87" stroke="#66FCF1" stroke-width="3"/>
+<path d="M26.5 117.5C27 119 29.5 122 35.5 122H94" stroke="#66FCF1" stroke-width="3"/>
+<path d="M93.5 122C95.3333 122 99 120.8 99 116V108M89.5 53.5C95.5 53.5 98.3333 57.1667 99 59V68M6.5 68H19M26.5 68H19M19 68V54.5H10.5M19 68V78H26.5M26.5 88H10.5M26.5 98H19V122H10.5M26.5 108H7M99 68H120M99 68V78M99 78H107V54.5V53.5H115.5M99 78V88M99 88H116M99 88V98M99 108H120M99 108V98M99 98H107V122H116M59 88.5V99C59.3333 100.167 60.6 102.4 63 102C65.4 101.6 66.6667 99.8333 67 99V88.5C71 86.5 72 74 63 74C55.5 74 54 84 59 88.5Z" stroke="#66FCF1" stroke-width="3"/>
+<path d="M49 43.5V23.5C50.5 19.6667 55.3 12.1 62.5 12.5" stroke="#66FCF1" stroke-width="3"/>
+<path d="M62 12.5C64.8333 12.1667 71.7 13.4 76.5 21V43.5H87V22" stroke="#66FCF1" stroke-width="3"/>
+<circle cx="5.5" cy="54.5" r="4" stroke="#66FCF1" stroke-width="3"/>
+<circle cx="120.5" cy="54.5" r="4" stroke="#66FCF1" stroke-width="3"/>
+<circle cx="120.5" cy="88.5" r="4" stroke="#66FCF1" stroke-width="3"/>
+<circle cx="120.5" cy="122.5" r="4" stroke="#66FCF1" stroke-width="3"/>
+<circle cx="5.5" cy="122.5" r="4" stroke="#66FCF1" stroke-width="3"/>
+<circle cx="5.5" cy="87.5" r="4" stroke="#66FCF1" stroke-width="3"/>
+</svg>
